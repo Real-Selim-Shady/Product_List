@@ -1,0 +1,171 @@
+.selected-product{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.selected-product-img{
+    object-fit: contain;
+    max-height: 200px;
+    background-color: #FFBD12;
+    width: 100%;
+}
+
+.selected-product-title{
+    width: 90%;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.selected-product-seller{
+    width: 90%;
+    font-size: 18px;
+    font-weight: 700;
+    color: #474A57;
+}
+
+.selected-product-description{
+    width: 90%;
+    color: #474A57;
+}
+
+.selected-product-price{
+    width: 90%;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.selected-product-rating{
+    display: flex;
+    width: 90%;
+}
+
+.selected-product-separator{
+    border-bottom: 3px solid black;
+    width: 90%;
+}
+
+.fa-star{
+    color: #FFBD12;
+}
+
+.rate{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.number-of-ratings{
+    font-size: 16px;
+}
+
+.back-button{
+
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    border-bottom: 3px solid;
+    font-size: 23px;
+    position: absolute;
+    background-color: white;
+    left: 8px;
+    top: 8px;
+}
+
+.bottom-block{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 10px;
+
+    .sizes-block{
+        display: flex;
+        flex-direction: column;
+
+        p{
+            font-weight: 700;
+        }
+
+        .sizes-buttons-block{
+            display: flex;
+            margin-bottom: 10px;
+
+            button{
+                width: 40px;
+                height: 40px;
+                border: 2px solid black;
+                border-radius: 5px;
+                border-bottom: 4px solid black;
+                margin-right: 7px;
+            }
+
+            button:hover{
+                border-bottom: 2px solid black;
+                height: 38px;
+                background-color: #FFBD12;
+            }
+        }
+
+
+    }
+
+    .colors-and-quantity-block{
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: space-between;
+        .colors-block{
+            display: flex;
+            flex-direction: column;
+            p{
+                font-weight: 700;
+            }
+
+            .colors-buttons-block{
+                display: flex;
+
+                .red-button{
+                    background-color: #F95A2C;
+                }
+                .yellow-button{
+                    background-color: #FFBD12;
+                }
+                .green-button{
+                    background-color: #00C6AE;
+                }
+                button{
+                    width: 28px;
+                    height: 28px;
+                    border-radius: 50%;
+                    border: 2px solid black;
+                    border-bottom: 4px solid black;
+                    margin-right: 7px;
+                }
+                button:hover{
+                    border-bottom: 2px solid black;
+                    width: 26px;
+                    height: 26px;
+                }
+
+            }
+
+        }
+
+        .quantity-block{
+            p{
+                font-weight: 700;
+            }
+            .choose-quantity{
+                display: flex;
+                border: 2px solid black;
+                border-radius: 5px;
+
+
+            }
+
+
+        }
+        
+    }
+
+}

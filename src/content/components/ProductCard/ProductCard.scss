@@ -1,0 +1,42 @@
+.product-card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.product-img{
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.product-title{
+    text-align-last: left;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.product-price{
+    text-align-last: left;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.liked{
+    color: #F95A2C;
+}
+
+.unliked{
+    color: black;
+}
+
+.fa-heart{
+    font-size: 23px;
+}
+
+.title-and-heart{
+    display: flex;
+    justify-content: space-between;
+}
